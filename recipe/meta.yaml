@@ -1,4 +1,4 @@
-{% set version = '0.9.1' %}
+{% set version = "0.10.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/box.linters_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/box.linters/box.linters_{{ version }}.tar.gz
-  sha256: f66fc4190f14766aef65e67342620836348d39bb87207bae42e5be04fefc0cec
+  sha256: aad385cad71997375037c8bc30fb6b8f6acc7606df834c3a567fad028d112ddf
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -52,9 +52,7 @@ about:
   home: https://appsilon.github.io/box.linters/
   dev_url: https://github.com/Appsilon/box.linters
   license: LGPL-3.0-only
-  summary: Static code analysis of 'box' modules. The package enhances code quality by providing
-    linters that check for common issues, enforce best practices, and ensure consistent
-    coding standards.
+  summary: Static code analysis of 'box' modules. The package enhances code quality by providing linters that check for common issues, enforce best practices, and ensure consistent coding standards.
   license_family: LGPL
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-3
