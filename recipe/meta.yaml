@@ -27,9 +27,12 @@ requirements:
     - r-cli
     - r-fs
     - r-glue
-    - r-lintr >=3.0.0
+    - r-lintr >=3.1.0
+    - r-purrr
     - r-rlang
     - r-stringr
+    - r-withr
+    - r-xfun
     - r-xml2
     - r-xmlparsedata
   run:
@@ -37,9 +40,12 @@ requirements:
     - r-cli
     - r-fs
     - r-glue
-    - r-lintr >=3.0.0
+    - r-lintr >=3.1.0
+    - r-purrr
     - r-rlang
     - r-stringr
+    - r-withr
+    - r-xfun
     - r-xml2
     - r-xmlparsedata
 
