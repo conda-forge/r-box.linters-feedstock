@@ -1,4 +1,4 @@
-{% set version = "0.10.4" %}
+{% set version = "0.10.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/box.linters_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/box.linters/box.linters_{{ version }}.tar.gz
-  sha256: 46b2d5387d41478562412ae32c12c5411c6b889b66b8ac498b1ea820a486dd5a
+  sha256: 08651540949c02cdbcd7956c27123b77a6fc5e4d055c725c98dea9cb8a96dfc8
 
 build:
   number: 0
